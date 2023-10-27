@@ -7077,7 +7077,7 @@ IonicModule
       // how far have we dragged so far?
       // kitkat fix for touchcancel events http://updates.html5rocks.com/2014/05/A-More-Compatible-Smoother-Touch
       // Only do this if we're not on crosswalk
-      if (ionic.Platform.isAndroid() && ionic.Platform.version() === 4.4 && !ionic.Platform.isCrosswalk() && scrollParent.scrollTop === 0 && deltaY > 0) {
+      if (ionic.Platform.isAndroid() && ionic.Platform.version() === 4.4 && scrollParent.scrollTop === 0 && deltaY > 0) {
         isDragging = true;
         e.preventDefault();
       }

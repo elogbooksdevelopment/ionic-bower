@@ -2041,7 +2041,6 @@ window.ionic.version = '1.3.5';
   var ANDROID = 'android';
   var WINDOWS_PHONE = 'windowsphone';
   var EDGE = 'edge';
-  var CROSSWALK = 'crosswalk';
   var requestAnimationFrame = ionic.requestAnimationFrame;
 
   /**
@@ -2273,10 +2272,6 @@ window.ionic.version = '1.3.5';
      */
     isEdge: function() {
       return self.is(EDGE);
-    },
-
-    isCrosswalk: function() {
-      return self.is(CROSSWALK);
     },
 
     /**
